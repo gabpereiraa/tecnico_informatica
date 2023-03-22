@@ -1,0 +1,17 @@
+- md5() criptografia no MySQL
+- revisão do conteúdo
+- atividade de avaliação individual
+
+Projeto Radical Motos
+
+1) Tela de Login:
+   Adicionar um ícone no título
+   Adicionar o ícone de status do banco de dados
+   (simular erros para verificar a troca do ícone)
+
+2) Tela Principal
+   Adicionar um ícone no título
+   Criar um botão [sobre] -> linkar na tela Sobre
+
+3) Tela Sobre
+   Criar usando JDialog (usar modelo da agenda)

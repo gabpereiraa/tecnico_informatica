@@ -1,0 +1,32 @@
+Inserir um rodapé com data atual.
+
+Date
+DateFormat
+
+Dica eclipse:
+<ctrl><shift><o> importar recursos
+
+Date -> importar de: java.util.Date
+
+
+Continuação do Projeto Radical Motos
+(atividade de avaliação)
+
+1) Tela de Login:
+   Adicionar um ícone no título
+   Adicionar o ícone de status do banco de dados
+   (simular erros para verificar a troca do ícone)
+
+2) Tela Principal
+   Adicionar um ícone no título
+   Adicionar um logo
+   Criar um botão [sobre] -> linkar na tela Sobre
+
+3) Tela Sobre
+   Criar usando JDialog (usar modelo da agenda)
+
+4) Tela de usuários (JDialog)
+   - Criar um formulário para cadastrar os usuários
+   - Validar campos obrigatórios
+   - Criar um botão e método para inserir um novo usuário
+   - Criar um botão e método para limpar campos

@@ -1,0 +1,24 @@
+Back-up e restore (eclipse)
+
+back-up (apenas copiar a pasta inteira do projeto)
+
+restore:
+Passo 1) Copiar a pasta do projeto no workspace
+Passo 2) Eclipse -> File -> import
+Passo 3) > General > existing projects into workspace
+Passo 4) [Browse] selecionar a pasta workspace
+Passo 5) selecionar o projeto a ser exportado
+
+
+JDBC
+Material de apoio:
+https://professorjosedeassis.github.io/infox/
+
+Dica eclipse:
+<ctrl><shift><f> Alinhar o código automaticamente
+<ctrl><shift><o> Importar recursos automaticamente
+<ctrl><espaço> Completa o comando
+<alt><shift><y> Quebra de linha
+
+
+
