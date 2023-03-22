@@ -1,0 +1,7 @@
+Operadores lógicos 
+AND - OR - NOT
+
+https://github.com/professorjosedeassis/logical-operators
+
+Atividade 11:
+Desenvolver no scratch um simulador de portas lógicas.

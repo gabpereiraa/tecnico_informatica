@@ -1,0 +1,59 @@
+// ESTUDO DO BOTÃO (interruptor de pressão)
+//@author vini
+
+void setup() {
+
+  pinMode(13, OUTPUT);// VERMELHO SEMAFARO
+  pinMode(12, OUTPUT);// AMARELO SEMAFORO
+  pinMode(11, OUTPUT);//VERDE SEMAFORO
+
+  pinMode(10, OUTPUT);//VERMELHO PED
+   
+  pinMode(9, OUTPUT);// VERDE PED
+  
+  Serial.begin(9600); 
+  // a linha abaixo configura a chave como entrada
+  pinMode (2,INPUT_PULLUP);
+}
+
+  void loop() 
+    
+  {
+  int botao = digitalRead(2);
+  //se o botão for pressionado
+    Serial.println(botao);
+  if (botao == 0) {
+    // Passo 1
+    digitalWrite(12, HIGH); // acende led amarelo carros
+    digitalWrite(9, HIGH); // acende led vermelho pedestre
+    digitalWrite(11, LOW); // apaga led verde carros
+    delay(1000);
+    // Passo 2
+    digitalWrite(13, HIGH); // acende led vermelho carros
+    digitalWrite(10, HIGH); // acende led verde pedestre
+    digitalWrite(12, LOW); // apaga led amarelo carros
+    digitalWrite(9, LOW); // apaga led vermelho pedestre
+    delay(5000);
+    // Passo 3
+    digitalWrite(13, HIGH); // acende led vermelho carros
+    digitalWrite(10, LOW); // apaga led verde pedestre
+    //piscar led vermelho pedestre
+    digitalWrite(9, HIGH);
+    delay(500);
+    digitalWrite(9, LOW);
+    delay(500);
+    digitalWrite(9, HIGH);
+    delay(500);
+    digitalWrite(9, LOW);
+    delay(500);
+    digitalWrite(9, HIGH);
+    delay(500);
+    digitalWrite(9, LOW);
+    delay(500);
+    digitalWrite(13, LOW); // apagar led vermelho carro
+    
+  } else {
+    digitalWrite(10, LOW
+    digitalWrite(9, HIGH);
+  }
+}

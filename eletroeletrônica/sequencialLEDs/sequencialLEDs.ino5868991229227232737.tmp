@@ -1,0 +1,36 @@
+/**
+ * estudo do LDR e das entradas analógicas do arduino
+ * Luz de cortesia
+ * @author  Vinicius Barbosa
+ */
+
+void setup() {
+ pinMode(13, OUTPUT);
+ pinMode(12, OUTPUT);
+ 
+ Serial.begin(9600);
+
+}
+
+void loop() {
+  // a linha abaixo cria uma variavel que será usada para 
+  // armazenar o valor do LDR (analógico 0)
+  int LDR1 = analogRead(A0);
+  int LDR2 = analogRead(A1);
+  Serial.println(LDR1);
+  
+  if (LDR1 < 700){
+    digitalWrite(13, HIGH);
+  }
+    else{
+    digitalWrite(13, LOW);
+}
+
+ if (LDR2 < 700){
+    digitalWrite(12, HIGH);
+  }
+  
+  else{
+    digitalWrite(12, LOW);
+}
+}

@@ -1,0 +1,66 @@
+Estruturas de repetições (laços)
+
+Laços finitos e infinitos
+
+Observações:
+++ (incremento  "+1")
+-- (decremento  "-1")
+
+
+Estrura for
+
+for (let i = 1; i < 10; i++){
+
+}
+
+Dica:
+let i = 1;  (início)
+i < 10; (condição para o término do laço)
+i++; incremento da variável usada para a contagem de repetições
+i++ equivale a (i = i + 1)
+
+Tabuada simples:
+let valor = 7
+for (let i = 1; i < 11; i++) {
+    console.log(valor + " x " + i + " = " + (valor * i))
+}
+
+Tabuadas:
+for (let i = 1; i < 11; i++) {
+    console.log(" ")
+    console.log("Tabuada do " + i)
+    for (let j = 1; j < 11; j++) {
+        console.log(i + " x " + j + " = " + (i * j))
+    }
+}
+
+_____________________________________________________
+Laços infinitos:
+
+while (condição) {
+  //condição verdadeira (repetição)
+}
+
+
+do {
+  //execução do código 1x independente da condição
+  //condição verdadeira (repetição)
+} while(condição)
+
+Exemplo de uso da estrutura do_while
+
+do {
+// Jogo: ...
+// Deseja jogar novamente(s/n)?
+} while (resp == 's');
+
+Observação:
+
+while(true) {
+  loop infinito
+}
+
+Dica: https://www.youtube.com/playlist?list=PLbEOwbQR9lqyuy7U1YjGgBv0x2Hzuw569
+
+
+

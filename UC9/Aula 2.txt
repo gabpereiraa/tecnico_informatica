@@ -1,0 +1,120 @@
+Cálculo de porcentagem
+
+Atividade 3 - Desenvolver no scratch um APP
+para o cálculo de porcentagem (Regra de 3)
+
+Exemplo:
+10% de 200 = 20
+
+x%  de  y  = valor
+
+Algoritmo
+
+200(y) -------------- 100%
+valor ------------ 10(x)%
+
+valor x 100 = 200(y) x 10(x)
+
+           200(y) x 10(x)
+valor =   ______________
+               100
+
+        2000
+valor = _____  = 20
+         100
+
+
+valor = (x * y) / 100  (regra de 3)
+
+// Variáveis
+x,y,valor (numéricas)
+
+// Entrada
+x,y
+
+// Processamento
+valor = (x * y) / 100
+
+// Saída
+valor
+
+______________________________________
+Atividade 4: Desenvolver no Scratch um
+APP para calcular o desconto da seguinte
+forma:
+
+total: 200,00
+desconto: 10%
+
+total com desconto: 180,00
+
+Algoritmo:
+desconto = total - desconto(%)
+
+Variáveis:
+total, desconto, totalDesconto
+
+Entrada:
+total, desconto
+
+Processamento:
+totalDesconto = total - (desconto * total)/100
+
+Saída:
+totalDesconto
+______________________________________
+Atividade 5: Desenvolver no Scratch um
+APP para calcular o preço de venda.
+
+custo: 100,00
+lucro: 50%
+
+venda: 150,00
+
+Algoritmo:
+venda = custo + lucro(%)
+
+Variáveis:
+custo, lucro, venda
+
+Entrada:
+custo, lucro
+
+Processamento:
+venda = custo + (custo * lucro)/100
+
+Saída:
+venda
+
+______________________________________
+Atividade 6: PDV (Ponto de vendas)
+UX (Boa experiência do usuário)
+
+Valor total:  200,00 (variável)
+Desconto: 10% (variável)
+Total com desconto: 180,00 (calculdo pelo APP)
+Valor pago: 200,00 (variável)
+Troco: 20,00 (calculado pelo APP)
+
+Algoritmo = Desconto (atividade 4)
+
+Troco = Dinheiro - Total com desconto
+EX: Troco = 200,00 - 180,00 
+    Troco = 20,00
+
+// Variáveis
+troco, dinheiro, totalDesconto(reutilizar)
+
+// Entrada
+dinheiro
+
+// Processamento
+troco = dinheiro - totalDesconto
+
+// Saída
+troco
+
+
+
+
+

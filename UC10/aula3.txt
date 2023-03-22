@@ -1,0 +1,26 @@
+Java
+
+Material de apoio:
+https://github.com/professorjosedeassis/javaSE
+
+
+Projeto agenda de contatos:
+
+- estrutura do projeto
+- interface gráfica
+- Back-up e Restore de um projeto
+- camada model (acesso ao banco de dados)
+- CRUD (Create)
+
+___________________________________________________
+Dicas: eclipse
+
+Window -> perspective -> reset perspective (default)
+
+contentPane -> mudar para layout absoluto
+
+
+
+
+
+

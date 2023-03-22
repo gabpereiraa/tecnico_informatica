@@ -1,0 +1,20 @@
+// C++ code
+//estudo da função lógica OR (||)
+// exemplo : escada rolante( botao de emergencia)
+//@author Viicius Barbosa
+void setup()
+{
+  pinMode(2, INPUT_PULLUP);
+  pinMode (12, INPUT_PULLUP);
+  pinMode (13, OUTPUT);
+  digitalWrite(13,HIGH);
+}
+
+void loop() {
+  int botao1 = digitalRead(2);
+  int botao2 = digitalRead(12);
+  if (botao1 ==0 || botao2 == 0){
+    digitalWrite(13,LOW);
+  }
+  
+  }

@@ -1,0 +1,87 @@
+Code.org
+https://code.org/hourofcode/overview
+
+Scratch
+https://scratch.mit.edu/
+
+- Material de apoio: Cálculo da média
+
+Regra da precedência:
+()
+*
+/
++
+
+Tipos de variáveis:
+
+String (cadeia de caracteres)
+Numéricas (inteiros e não inteiros)
+Booleanas (verdadeiro ou falso)
+
+
+Dicas:
+1) Nomes de variáveis começam com letra minúscula
+2) Não usar acentos, caracteres especiais e espaço
+3) Definir nomes que tenham a ver com o problema
+4) Para nomes compostos(separados) usar a técnica
+   do camelo(camel case)
+   Ex: nomeCliente  nome_cliente
+
+
+3 Super Dicas para ser um desenvolvedor
+
+Dica 1: Entender o problema
+Dica 2: Desenvolver pensando no usuário final (UX)
+Dica 3: Usar o mínimo possível de código
+
+Ex: Marca passo
+
+freq (variável)
+
+if (freq >= 40) {
+  //nomal
+} else {
+  //acionar corrente elétrica
+}
+
+if (freq < 40) {
+  //acionar corrente elétrica
+} else {
+  //normal
+}
+
+__________________________________________
+Atividade 1:
+Desenvolver no scratch um APP para calcular
+o IMC
+
+         peso
+imc =  ________
+              2
+        altura
+
+variáveis: 3 (numéricas)
+
+entrada: peso, altura
+
+processamento:
+
+imc = peso / (altura * altura)
+
+saída: imc
+_______________________________________
+Atividade 2:
+Desenvolver no scratch um APP que converte
+a temperatura de Fahrenheit para Celsius.
+
+      F - 32
+C =  _______
+       1,8
+
+Variáveis: c, f (numéricas)
+
+Entrada: f
+Processamento: C = (f - 32) / 1.8
+Saída: c
+
+

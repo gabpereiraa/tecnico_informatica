@@ -1,0 +1,35 @@
+Atividade 15:
+
+Churrascoladora:
+Desenvolver no scratch um APP para calcular quantidade de carne, latas de cerveja e latas de refri, conforme modelo em anexo.
+
+Alimentar o APP com a quantidade de:
+Homens
+Mulheres
+Crianças
+
+Critérios carne:
+H 700g  
+M 400g  
+C 250g 
+
+1350,00 kg
+
+Critérios Cerveja: 
+H 12 latas 120
+M 2 latas 20
+
+
+Critérios Refri:
+H 2 latas 20
+M 3 latas 30
+C 4 latas 40
+90
+
+
+
+13500
+
+
+
+

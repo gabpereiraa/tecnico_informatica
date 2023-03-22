@@ -1,0 +1,19 @@
+// estudo funçao logica not (!)
+//exemplo: ligar e desligar um led com um unico botao
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(2, INPUT_PULLUP);
+
+
+}
+
+void loop()
+{
+  int botao = digitalRead(2);
+  if (botao == 0) {
+    digitalWrite(13, !digitalRead(13));
+    delay(50);
+  }
+  
+}

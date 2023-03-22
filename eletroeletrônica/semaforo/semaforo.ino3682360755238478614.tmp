@@ -1,0 +1,38 @@
+/**
+   Semáforo de pedestres
+   @author Professor José de Assis
+*/
+
+void setup() {
+  pinMode(2, INPUT_PULLUP);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+}
+
+void loop() {
+   
+    // Passo 3
+    digitalWrite(7, HIGH); // acende led vermelho carros
+    digitalWrite(3, LOW); // apaga led verde pedestre
+    //piscar led vermelho pedestre
+    digitalWrite(4, HIGH);
+    delay(500);
+    digitalWrite(4, LOW);
+    delay(500);
+    digitalWrite(4, HIGH);
+    delay(500);
+    digitalWrite(4, LOW);
+    delay(500);
+    digitalWrite(4, HIGH);
+    delay(500);
+    digitalWrite(4, LOW);
+    delay(500);
+    digitalWrite(7, LOW); // apagar led vermelho carro
+  } else {
+    digitalWrite(4, HIGH);
+    digitalWrite(5, HIGH);
+  }
+}

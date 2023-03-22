@@ -1,0 +1,69 @@
+Material de apoio:
+https://github.com/professorjosedeassis/mysql
+
+UCs 10,11 e 12
+
+UC10 - banco de dados
+UC12 - Sistemas Desktop (comércio de bens e serviços)
+       "Lojas físicas"
+UC11 - metodologias e testes
+_____________________________________________________
+
+UC-10 / Preparação do ambiente de desenvolvimento
+
+Passo 1) Obter a iso do debian e virtualizar
+(iso na pasta pública)
+
+Instruções de instalação:
+https://youtu.be/E6Hf5rQajtw
+
+Passo 2) Instalar as chaves de segurança para o MySQL
+apt install gnupg
+
+Passo 3) Fazer o download do repositório MySQL
+mysql.com -> downloads -> community downloads -> apt repositories -> copiar endereço do link
+
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+
+Passo 4) Instalar o repositório do MySQL no debian
+dpkg -i m<tab>
+
+Passo 5) Atualizar o repositório debian
+apt update
+
+Passo 6) Instalar O MySQL
+apt install mysql-server 
+
+passo 7) Verificar a versão e instalar um plugin de segurança
+mysql -V (versão)
+mysql_secure_installation (plugin de segurança) 
+
+Passo 8) Criar um usuário para acessar remotamente o Servidor MySQL
+mysql -u root -p
+<ctrl L> limpar a tela
+select user,host from mysql.user;
+create user 'dba'@'%' identified by '123@senac';
+grant all on *.* to 'dba'@'%';
+flush privileges;
+
+Passo 9) Configurar um ip fixo no servidor MySQL
+editor /etc/network/interfaces
+iface enp0s3 inet static
+address 10.26.49.x/24 (substituir o x pelo número do ip)
+gateway 10.26.49.1
+<ctrl o><ctrl x>
+# Mudar a configuração da rede para modo bridge e reiniciar o servidor
+reboot
+ip a (verificar o ip do servidor)
+# Fazer um teste de ping do windows para o servidor
+
+Passo 10) Configurar o workbench ("IDE")
+
+Para desligar o servidor:
+shutdown -h now
+
+
+
+
+
+

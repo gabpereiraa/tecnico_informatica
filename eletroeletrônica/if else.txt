@@ -1,0 +1,12 @@
+Estrutura de controle condicional
+
+if (condição) {
+  // condição verdadeira
+}
+
+
+if (condição) {
+ // condição verdadeira
+} else {
+ // condição falsa
+} 

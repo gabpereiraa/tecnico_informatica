@@ -1,0 +1,26 @@
+Funções ou métodos:
+Bloco de código que pode ser reutilizado
+
+Arduino:
+
+setup() {
+
+}
+
+loop() {
+
+}
+
+//funções personalizadas
+
+_____________________________________________
+analogWrite(5, 200);
+ativa o PWM na porta 5
+valores de PWM
+0 - mínimo
+255 - máxima velocidade
+
+
+
+
+

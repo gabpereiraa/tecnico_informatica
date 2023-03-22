@@ -1,0 +1,28 @@
+Estrutura de repetição
+
+for (int i = 1; i < 10; i++) {
+
+}
+
+
+int i = 1  (criar uma variável de nome i e valor 1)
+i < 10 (condição para o laço)
+i++ (soma 1 a variável i)
+
+i++ equivale a i = i + 1
+1º laço i = 1
+2º laço i = 1 + 1   (i = 2)
+3º laço i = 2 + 1   (i = 3)
+... 
+
+________________________________________
+
+for (int i = 10; i > 0; i--) {
+
+}
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+Estruturas de controle condicional
+Encadeamento da estrutura if else
+
+if (condição 1) {
+  //condição 1 verdadeira
+} else {
+  if (condição 2) {
+    //condição 2 verdadeira
+  } else {
+    //nenhuma das condições anteriores verdadeiras
+  }
+}
+
+Para encadear uma estrutura devemos elaborar outra 
+condição dentro do else, o else final será executado
+se nenhuma das condições anteriores for verdadeira.
+
+ATENÇÃO !
+
+if (condição 1) {
+  //condição 1 verdadeira
+} else if (condição 2) {
+  //condição 2 verdadeira
+} else 
+  //nenhuma das condições anteriores verdadeiras
+}
+
+Atividade 12:
+Sistema eleição:
+Determinar se o eleitor está apto a votar ou o voto é
+facultativo.
+
+Menos de 16 anos (proibido votar)
+16,17 ou acima de 70 (voto facultativo)
+18 ----- 70 (incluindo 18 e 70) (voto obrigatório)
+
+Algorítmo:
+Variáveis:
+idade (numérica)
+Entrada:
+idade
+Processamento + saída:
+Encadeamento if else
+
+if (idade < 16) {
+    alert("PROIBIDO VOTAR")
+} else if (idade == 16 || idade == 17 || idade > 70) {
+    alert("VOTO FACULTATIVO")
+} else if (idade >= 18 && idade <= 70) {
+    alert("VOTO OBRIGATÓRIO")
+}
+
+___________________________________________________
+Operadores de comparação:
+
+>  maior
+>= maior ou igual
+<  menor
+<= menor ou igual
+== igual a
+!= diferente de
+
+Atividade 13
+APP Cálculo da média
+Modificar critérios:
+média menor ou igual a 2 (REPROVADO)
+média entre 2 e 5 (não inclui o 2 e o 5) (RECUPERAÇÃO)
+média maior ou igual a 5 (APROVADO)
+Teste:
+nota1 nota2
+2     2      reprovado
+2     2.1    recuperação
+4.9   4.9    recuperação
+5     5      aprovado
+
+Atividade 14
+APP Cálculo do IMC
+Status em função da tabela IMC
+https://www.calculoimc.com.br/
+Teste: altura 1.63
+Peso 49 (abaixo), Peso 50 (normal), Peso 69 (sobrepeso), Peso 80 (grau 1)
+Peso 100 (grau 2), Peso 120 (grau 3)
+
+
+
+
+
+
+
+
+
+
+

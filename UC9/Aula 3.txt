@@ -1,0 +1,51 @@
+Estruturas de controle condicional
+
+//Java Script (Linguagem de programação)
+https://www.slideshare.net/josedeassisfilho/curso-primeiros-passos-java-script
+
+//Variáveis não são tipadas
+let nome = valor
+
+"String" 'String'   (tipo String)
+98  |  10.2         (tipo Numérico)
+true  |  false      (tipo booleano)
+
+
+if (condição) {
+  //condição verdadeira
+}
+
+
+if (condição) {
+  //condição verdadeira
+} else {
+  //condição falsa
+}
+
+Atividade 7: Desenvolver no Scratch um APP
+que pergunte a sua idade e fale se você é
+maior ou menor de idade.
+
+Atividade 8: Desenvolver no Scratch um APP
+para saber se é mais vantajoso abastecer um
+carro flex com etanol ou gasolina.
+https://complemento.veja.abril.com.br/economia/calculadora-combustivel
+
+Algoritmo:
+
+//variáveis
+etanol, gasolina
+
+//entrada
+etanol, gasolina
+
+processamento/saída
+if (etanol < 0.7 * gasolina) {
+  //etanol
+} else {
+  //gasolina
+}
+
+
+
+

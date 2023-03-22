@@ -1,0 +1,26 @@
+Material de apoio:
+https://github.com/professorjosedeassis/mysql
+
+Projeto 1: Agenda de contatos
+
+nome do contato (obrigatório)
+telefone do contato (obrigatório)
+e-mail (não obrigatório)
+
+Modelagem de dados:
+Verificar no material de apoio de dados
+
+_________________________________________________
+Java: Preparação do ambiente de desenvolvimento
+
+https://www.eclipse.org/
+Download:
+openjdk (instalar primeiro)
+eclipse (instalar a versão Enterprise java and WEB Developers)
+
+[cmd]
+java -version  (17 lts)
+____________________________________________________
+Após instalação do eclipse, abrir a aba help ->
+eclipse marketeplace -> na lupa digitar window builder
+instalar este recurso

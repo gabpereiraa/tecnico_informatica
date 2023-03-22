@@ -1,0 +1,38 @@
+Atividade 9: Cálculo do valor da hora de serviço
+
+1º passo) Remuneração mensal pretendida
+6000.00 (variável)
+
+2º passo) Reservar 30% remuneração mensal
+1800.00 (30% da remuneração) 30% -> constante
+
+3º passo) Reservar 20% investimento
+1200.00 (20% da remuneração) 20% -> constante
+
+4º passo) Contabilizar o custo operacional mensal
+1000.00 (variável)
+
+5º passo) Determinar carga horária mensal de trabalho
+160 horas (variável)
+
+                remuneração + reserva + investimento + custo
+hora técnica = _______________________________________________
+                             carga horária mensal
+
+
+                6000 + 1800 + 1200 + 1000
+hora técnica = ___________________________
+                           160
+
+hora técnica = 62.5
+
+
+Atividade 10: Desenvolver no scratch uma calculadora
+(livre escolha) usando apenas o conhecimento adquirido.
+Observações:
+1) Não pode ser nenhuma calculadora desenvolvida em aula.
+2) Não podem existir duas calculadoras iguais na turma.
+
+Dica:
+https://www.calculator.net/
+

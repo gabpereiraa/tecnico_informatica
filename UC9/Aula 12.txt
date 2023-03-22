@@ -1,0 +1,12 @@
+Fundamentos do JS
+
+Conteúdo de aula nos arquivos js
+
+Instalação do pacote readline-sync (permite entrada de dados) via console no node
+
+https://www.npmjs.com/package/readline-sync
+npm i readline-sync
+
+Atividade de avaliação:
+1) Desenvolver no JS (plataforma node) todos os exercícios que forma feitos no scratch
+2) Postar no GitHub (repositório pessoal) o tutorial completo

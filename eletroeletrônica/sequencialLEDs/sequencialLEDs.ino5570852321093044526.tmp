@@ -1,0 +1,23 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode (2, INPUT_PULLUP);
+  pinMode (3, INPUT_PULLUP);
+
+}
+
+void loop() {
+
+  int botao = digitalRead(2);
+  int botao2 = digitalRead(3);
+  //se o botão for pressionadO
+
+   if (botao1 == 0){
+   digitalWrite(13, HIGH);
+   }
+
+   if(botao2 == 0){
+   digitalWrite(13, LOW);
+   }

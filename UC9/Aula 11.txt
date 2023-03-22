@@ -1,0 +1,36 @@
+git
+
+Comandos básicos:
+
+//configurações iniciais
+[git bash]
+git config --global user.name = "seu nome"
+git config --global user.email = "seu email GitHub"
+
+//comandos
+git clone url_repositório
+git status (verificar alterações)
+git add . (adiciona todas alterações ao repositório local)
+git commit - m "Descrição das alterações"
+git push (envia as ao GitHub as alterações do projeto)
+git pull (sincroniza do GitHub as alterações)
+
+_________________________________________________________
+nodemon -> pacote(modulo) que automatiza o uso terminal
+(ferramenta de produtividade para o desenvolvedor)
+
+npm i -D nodemon (-D exclusivo para desenvolvimento)
+nodemon index.js (ou outros arquivos .js)
+
+npm i ou npm install (instalar um pacote)
+npm remove (remover um pacote)
+npm ls (listar os pacotes instalados)
+
+Dica: para alterar vários comandos ou texto ao mesmo tempo usar no VSCode a combinação de teclas <ctrl><d>
+
+Importante: Usar "let" no lugar do "var" para criar variáveis
+
+
+
+
+

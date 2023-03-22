@@ -1,0 +1,40 @@
+Estruturas de controle condicional
+
+switch case
+
+análise de uma variável do tipo int ou char
+
+switch (variavel) {
+  case 1:
+    //código se o valor da variável for 1
+    break
+
+  case 2:
+    //código se o valor da variável for 2
+    break
+
+  default:
+    //código se nenhum valor corresponder aos cases
+    break
+}
+
+Exemplo de uso:
+
+1.  Windows
+2.  Linux
+
+Digite a opção desejada: 
+
+Java Script
+switch(opcao) {
+    case 1:
+        alert("Carregando o sistema Windows............")
+        break
+    case 2:
+        alert("Carregando o sistem Linux..")
+        break
+    default:
+        alert("Opção inválida")
+        break
+}
+

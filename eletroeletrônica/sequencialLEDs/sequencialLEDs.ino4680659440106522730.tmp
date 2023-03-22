@@ -1,0 +1,23 @@
+// C++ code
+//estudo da função lógica and( &&)
+//@author Viicius Barbosa
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode (2, INPUT_PULLUP);
+  pinMode (3, INPUT_PULLUP);
+
+}
+
+void loop() {
+
+  int botao1 = digitalRead(2);
+  int botao2 = digitalRead(3);
+  
+  if (botao1 == 0 && botao2 == 0){
+    digitalWrite(13,HIGH);
+  
+  }else{
+    digitalWrite(13,LOW);
+  }
+  }

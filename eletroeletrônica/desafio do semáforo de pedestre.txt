@@ -1,0 +1,30 @@
+"botão de travessia não pressionado"
+semáforo carros verde | semáforo pedestre vermelho
+
+"botão de travessia pressionado"
+1) semáforo carros amarelo | semáforo pedestre vermelho
+// 1 segundo
+2) semáforo carros vermelho | semáforo pedestre verde
+// 5 segundos
+3) semáforo carros vermelho | semáforo pedestre vermelho piscando
+// 3 segundos
+// volta a condição inicial
+
+Dica:
+loop(){
+if (botão pressionado) {
+  // lógica da sequência do pedestre
+} else {
+  // lógica da sequência do carro
+}
+
+
+
+
+
+
+
+
+
+
+

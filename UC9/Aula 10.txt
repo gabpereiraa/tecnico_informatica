@@ -1,0 +1,45 @@
+Desenvolvimento de sistemas:
+
+- Base (Lógica, banco de dados, linguagem (WEB))
+js (lógica)
+
+- Sistema desktop (automação comercial, pdv, gestão de serviços)
+  - C# ou Java
+
+- Sistema WEB (Full Stack - front-end + back-end)
+  - front-end (html,css,js) + bootstrap
+  - back-end (js com node, java, python com jango, php, asp)
+    (mais populares (js com node e java))
+
+- Node (Introdução)
+
+1º site do mundo:
+http://info.cern.ch/
+
+_______________________________________________________
+Preparação do ambiente de desenvolvimento
+
+1) Baixar e instalar o node: https://nodejs.org/en/
+2) Baixar o VSCode: https://code.visualstudio.com/
+3) Baixar e instalar o git: https://git-scm.com/
+
+
+_______________________________________________________
+Tutorial:
+npm (gerenciador de pacotes)
+npm init (documentação do projeto)
+Para executar um projeto js na plataforma node, digitar:
+node arquivo.js
+
+________________________________________________________
+Pacotes: Módulos (bibliotecas prontas para utilização)
+
+________________________________________________________
+
+
+
+
+
+
+
+
