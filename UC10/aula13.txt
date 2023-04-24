@@ -1,0 +1,28 @@
+Autenticação simples de usuários (Java - MySQL)
+_______________________________________________
+
+POO - Programação orientada a objetos
+
+Material de apoio:
+https://professorjosedeassis.github.io/javaSE/
+
+objeto (substantivo)
+atributos (adjetivos)
+métodos (verbos)
+
+Código para gerar um número de chassi aleatório no construtor
+
+System.out.println("______________________________________");
+// Dica: <ctrl><shift><o> importa automaticamente a classe
+// a linha abaixo cria um objeto de nome chassi
+String chassi = new String("123456789ABCDEFGHIJKLMNOPQRSTUVXYZ");
+// apoio ao entendimento da logica
+// System.out.println(chassi.charAt(6));
+// System.out.println(chassi.length());
+Random gerador = new Random();
+System.out.print("Chassi: * ");
+for (int i = 1; i < 16; i++) {
+	char numeracao = (char) gerador.nextInt(chassi.length());
+	System.out.print(chassi.charAt(numeracao));
+}
+System.out.println(" *");

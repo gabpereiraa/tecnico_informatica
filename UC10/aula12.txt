@@ -1,0 +1,6 @@
+Revisão do conteúdo / correção de atividades
+
+_____________________________________________
+Dica:
+// uso da tecla <enter> junto com um botao (construtor)
+getRootPane().setDefaultButton(btnAcessar);

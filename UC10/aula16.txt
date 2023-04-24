@@ -1,0 +1,15 @@
+Tela de login
+
+- Uso do combobox (Exemplo: Tela de usuários)
+
+  //validar um combobox(preenchimento obrigatório)
+  if(cboPerfil.getSelectedItem().equals(""))
+
+  //limpar um combobox
+  cboPerfil.setSelectedItem("");
+
+  //obter o valor de um combobox (gravar no banco)
+  cboPerfil.getSelectedItem().toString()
+
+  //setar de um combobox (obter do banco)
+  cboPerfil.setSelectedItem(rs.getString(5))

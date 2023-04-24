@@ -1,0 +1,6 @@
+Material de apoio:
+Revisão de CRUD (JDBC) - projeto carômetro
+https://www.youtube.com/playlist?list=PLbEOwbQR9lqz6tSoH51QAEzpo1VsXgvIv
+
+
+CRUD - Update

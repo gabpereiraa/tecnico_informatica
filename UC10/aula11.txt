@@ -1,0 +1,26 @@
+Validação (tamanho máximo de caracteres)
+
+(código validador)
+
+//uso do PlainDocument para limitar os campos
+txtNome.setDocument(new Validador(30));
+______________________________________________
+
+Documentação de um projeto
+
+Banco de dados:
+- dump
+  workbench -> Administration -> Data export
+- script
+- modelo ER -> database -> Reverse Engineer (exportar como pdf)
+
+Sistema
+- back-up (pessoal) -> copiar a pasta do workspace
+- versão para distribuição
+  ATENÇÃO !!! (projeto concluído e debugado!)
+  1) Eliminar todos os avisos
+  2) Eliminar comentários desnecessários (clean code)
+  3) Eliminar espaços e identar o código (CTRL SHIFT F) clean code
+	
+- executável (build - publicação)
+clicar com o botão direito no projeto -> export -> java -> runnable jar file

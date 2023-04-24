@@ -1,0 +1,6 @@
+Atividade de avaliação
+Projeto Radical Motos
+[Tela de usuários]
+- Desenvolver a busca de um usuário, pesquisando pelo login
+- Fazer validações, limpar campos e setar botões, conforme
+  exemplo de aula (agenda de contatos)

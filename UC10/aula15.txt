@@ -1,0 +1,10 @@
+Tratamento de perfil de usuários
+
+Atividade de avaliação (sistema OS - Radical Motos)
+- Tela de usuários
+1) Adicionar o campo perfil
+2) Fazer o CRUD completo incluindo o perfil
+3) Validação e limpeza
+4) Uso do método getPassword() para captura segura de senhas
+5) Uso de ícones personalizados e acessibilidade na tela de usuários
+6) Botão de limpar
